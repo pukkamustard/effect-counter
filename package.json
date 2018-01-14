@@ -1,0 +1,24 @@
+{
+  "name": "effect-counter",
+  "version": "1.0.0",
+  "description": "A simple counter as an Elm Effect Manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pukkamustard/effect-counter"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jsverify": "^0.8.3",
+    "mocha": "^4.1.0",
+    "puppeteer": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "author": "pukkamustard",
+  "license": "MIT"
+}
